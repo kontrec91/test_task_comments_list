@@ -1,0 +1,61 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.inputName {
+    margin-bottom: 10px;
+}
+
+.textArea {
+    margin-bottom: 10px;
+}
+
+.error {
+    color:rgb(255, 0, 0);
+}
+
+.addComment {
+    margin-bottom: 10px;
+}
+
+.comments {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.comments>span {
+    display: flex;
+    justify-content: center;
+}
+
+.commentsList {
+    max-width: 1000px;
+}
+
+.comment {
+    padding: 10px;
+    word-break: break-all;
+}
+
+@media (max-width:400px) {
+    .commentsList {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+}
